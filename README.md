@@ -5,7 +5,7 @@
   </a>
 </p>
 
-# LPONE – Digital Brand Builder
+#Digital Brand Builder
 
 A modern, visually engaging web app for building digital brands, MVPs, and business portfolios. Built with React, Vite, Tailwind CSS, and Framer Motion, it showcases projects, testimonials, pricing, and more.
 
