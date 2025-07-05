@@ -1,7 +1,7 @@
 import React from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import { BackgroundGradient } from "./ui/background-Gradient";
+import { BackgroundGradient } from "./ui/Background-Gradient";
 
 const features = [
   {
