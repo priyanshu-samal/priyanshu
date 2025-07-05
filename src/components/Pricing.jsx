@@ -1,5 +1,5 @@
 import React from "react";
-import { BackgroundGradient } from "./ui/background-Gradient";
+import { BackgroundGradient } from "./ui/Background-Gradient";
 
 const pricingOptions = [
   {
