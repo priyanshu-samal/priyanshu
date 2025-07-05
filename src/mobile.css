@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+  .hero-mobile-fix {
+    justify-content: flex-start !important;
+    padding-top: 40px !important;
+  }
+} 

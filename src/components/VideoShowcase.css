@@ -1,0 +1,35 @@
+.mySwiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .swiper-slide-active {
+    transform: scale(1.2);
+    z-index: 10;
+  }
+  
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .swiper-button-prev {
+    left: 10px;
+  }
+  .swiper-button-next {
+    right: 10px;
+  }
+  

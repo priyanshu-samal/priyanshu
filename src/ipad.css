@@ -1,0 +1,9 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero-ipad {
+    margin-top: -10px; /* Increased negative margin for less top space */
+  }
+  .hero-ipad-fix {
+    justify-content: flex-start !important;
+    padding-top: 70px !important;
+  }
+}
