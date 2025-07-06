@@ -1,11 +1,5 @@
 <!-- PROJECT LINK BUTTON -->
-<p align="center">
-  <a href="https://cal.com/priyanshu-samal" target="_blank">
-    <img src="https://img.shields.io/badge/Connect%20with%20Me-Book%20a%20Call-blue?style=for-the-badge" alt="Book a Call" />
-  </a>
-</p>
-
-#Digital Brand Builder
+[Project Link](https://www.priyanshu.tech/)
 
 A modern, visually engaging web app for building digital brands, MVPs, and business portfolios. Built with React, Vite, Tailwind CSS, and Framer Motion, it showcases projects, testimonials, pricing, and more.
 
