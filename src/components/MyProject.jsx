@@ -34,6 +34,12 @@ const projects = [
     description: "A modern, real-time chat application built with Next.js, Tailwind CSS, and Supabase.",
     url: "https://periskopechat.vercel.app/",
   },
+  {
+    name: "SnitchRebrand",
+    image: "/SnitchRebrand.png",
+    description: "Rebranded snitch website for Frontend Hackathon",
+    url: "https://hackathonsnitch.vercel.app/",
+  },
 ];
 
 export default function MyProject() {
