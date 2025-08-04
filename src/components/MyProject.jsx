@@ -5,6 +5,12 @@ import VideoShowcase from "./VideoShowcase";
 
 const projects = [
   {
+    name: "BuildMvpFast",
+    image: "/BuildMvpFast.png",
+    description: "Agency Website for Client",
+    url: "https://mvp-genesis-launchpad.vercel.app/",
+  },
+  {
     name: "Destiny",
     image: "/Destiny.png",
     description: "AI-powered travel planning and management application",
@@ -40,12 +46,7 @@ const projects = [
     description: "Rebranded snitch website for Frontend Hackathon",
     url: "https://hackathonsnitch.vercel.app/",
   },
-  {
-    name: "BuildMvpFast",
-    image: "/BuildMvpFast.png",
-    description: "Agency Website for Client",
-    url: "https://mvp-genesis-launchpad.vercel.app/",
-  },
+  
 ];
 
 export default function MyProject() {
