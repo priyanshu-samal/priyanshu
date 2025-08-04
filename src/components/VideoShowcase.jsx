@@ -9,6 +9,11 @@ import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 
 const videos = [
+   {
+    title: "BuildMvpFast",
+    subtitle: "Priyanshu",
+    video: "/4aug.mp4",,
+  },
   {
     title: "FRA! Doodle Artist Portfolio",
     subtitle: "Patrick David",
