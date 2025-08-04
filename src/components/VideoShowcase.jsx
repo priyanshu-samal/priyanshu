@@ -12,7 +12,7 @@ const videos = [
    {
     title: "BuildMvpFast",
     subtitle: "Priyanshu",
-    video: "/4aug.mp4",,
+    video: "/4aug.mp4",
   },
   {
     title: "FRA! Doodle Artist Portfolio",
