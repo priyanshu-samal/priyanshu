@@ -9,25 +9,28 @@ import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 
 const videos = [
-   {
+  {
     title: "BuildMvpFast",
     subtitle: "Priyanshu",
-    video: "/4aug.mp4",
+    video: "/4aug.mp4", // local video in public folder
   },
   {
     title: "FRA! Doodle Artist Portfolio",
     subtitle: "Patrick David",
-    url: "https://gsap.com/community/uploads/monthly_2025_07/small.mp4.a0a2b2732381fed886ad76d34f86f81a.mp4",
+    video:
+      "https://gsap.com/community/uploads/monthly_2025_07/small.mp4.a0a2b2732381fed886ad76d34f86f81a.mp4",
   },
   {
     title: "GSAP Showreel 2024",
     subtitle: "GSAP Team",
-    url: "https://gsap.com/community/uploads/monthly_2025_01/trimmed.mp4.b3ee24a03e178b0c306dba74ff29e698.mp4",
+    video:
+      "https://gsap.com/community/uploads/monthly_2025_01/trimmed.mp4.b3ee24a03e178b0c306dba74ff29e698.mp4",
   },
   {
     title: "Palmer Dinnerware",
     subtitle: "UNCOMMON",
-    url: "https://gsap.com/community/uploads/monthly_2025_06/palmer-gsap(compressed).mp4.4c2f38a33a1ecb43889e76a4c66593b9.mp4",
+    video:
+      "https://gsap.com/community/uploads/monthly_2025_06/palmer-gsap(compressed).mp4.4c2f38a33a1ecb43889e76a4c66593b9.mp4",
   },
 ];
 
@@ -46,7 +49,7 @@ const VideoShowcase = () => {
   return (
     <section className="bg-black py-16 text-white">
       <h2 className="text-4xl text-center font-bold mb-6 showcase-title">
-        
+        Video Showcase
       </h2>
 
       <div className="relative max-w-[1200px] mx-auto px-4">
@@ -74,10 +77,10 @@ const VideoShowcase = () => {
           {videos.map((item, index) => (
             <SwiperSlide
               key={index}
-              className="relative w-[100px] h-[150px] rounded-xl overflow-hidden shadow-xl"
+              className="relative w-[280px] h-[400px] rounded-xl overflow-hidden shadow-xl"
             >
               <video
-                src={item.url}
+                src={item.video}
                 autoPlay
                 muted
                 loop
