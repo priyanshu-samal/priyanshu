@@ -40,6 +40,12 @@ const projects = [
     description: "Rebranded snitch website for Frontend Hackathon",
     url: "https://hackathonsnitch.vercel.app/",
   },
+  {
+    name: "BuildMvpFast",
+    image: "/BuildMvpFast.png",
+    description: "Agency Website for Client",
+    url: "https://mvp-genesis-launchpad.vercel.app/",
+  },
 ];
 
 export default function MyProject() {
