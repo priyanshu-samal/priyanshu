@@ -12,7 +12,12 @@ const videos = [
   {
     title: "BuildMvpFast",
     subtitle: "Priyanshu",
-    video: "/4aug.mp4", // local video in public folder
+    video: "/4aug.mp4", 
+  },
+  {
+    title: "SnitchRebrand",
+    subtitle: "Priyanshu",
+    video: "/4snitch.mp4", 
   },
   {
     title: "FRA! Doodle Artist Portfolio",
@@ -26,12 +31,7 @@ const videos = [
     video:
       "https://gsap.com/community/uploads/monthly_2025_01/trimmed.mp4.b3ee24a03e178b0c306dba74ff29e698.mp4",
   },
-  {
-    title: "Palmer Dinnerware",
-    subtitle: "UNCOMMON",
-    video:
-      "https://gsap.com/community/uploads/monthly_2025_06/palmer-gsap(compressed).mp4.4c2f38a33a1ecb43889e76a4c66593b9.mp4",
-  },
+
 ];
 
 const VideoShowcase = () => {
